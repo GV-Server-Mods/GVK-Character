@@ -76,7 +76,7 @@ namespace vorgonian.DisableAllAutomaticJetpackActivation
 
             if ((oldState == MyCharacterMovementEnum.Flying) || (newState == MyCharacterMovementEnum.Flying))
             {
-                MyEntityComponentContainer playercontainer = characterEntity.Components;
+                VRage.Game.Components.Interfaces.IMyEntityComponentContainer playercontainer = characterEntity.Components;
                 MyCharacterJetpackComponent JetpackComp = playercontainer.Get<MyCharacterJetpackComponent>();
                 if (JetpackComp != null)
                 {
@@ -133,7 +133,7 @@ namespace vorgonian.DisableAllAutomaticJetpackActivation
                             handlerAdded = false;
                         }
                         characterEntity = ((IMyCharacter)camera);
-                        MyEntityComponentContainer playercontainer = ((IMyCharacter)camera).Components;
+                        VRage.Game.Components.Interfaces.IMyEntityComponentContainer playercontainer = ((IMyCharacter)camera).Components;
                         MyCharacterJetpackComponent JetpackComp = playercontainer.Get<MyCharacterJetpackComponent>();
                         if (JetpackComp != null)
                         {
