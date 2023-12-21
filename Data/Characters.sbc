@@ -79,7 +79,7 @@
 				<Material>Astronaut_head</Material>
 				<Material>Spacesuit_hood</Material>
 			</MaterialsDisabledIn1st>
-			<OxygenConsumption>0.063</OxygenConsumption>
+			<OxygenConsumption>0</OxygenConsumption> <!-- Vanilla 0.063 -->
 			<OxygenConsumptionMultiplier>1</OxygenConsumptionMultiplier>
 			<OxygenSuitRefillTime>10000</OxygenSuitRefillTime>
 			<MinOxygenLevelForSuitRefill>0.75</MinOxygenLevelForSuitRefill>
@@ -93,7 +93,7 @@
 						<TypeId>GasProperties</TypeId>
 						<SubtypeId>Hydrogen</SubtypeId>
 					</Id>
-					<MaxCapacity>100</MaxCapacity>
+					<MaxCapacity>125</MaxCapacity>
 					<Throughput>1000</Throughput>
 				</Resource>
 				<Resource>
@@ -456,7 +456,7 @@
 				<Material>Astronaut_head_female_EyeBrows</Material>
 				<Material>Astronaut_head_female</Material>
 			</MaterialsDisabledIn1st>
-			<OxygenConsumption>0.063</OxygenConsumption>
+			<OxygenConsumption>0</OxygenConsumption> <!-- Vanilla 0.063 -->
 			<OxygenConsumptionMultiplier>1</OxygenConsumptionMultiplier>
 			<OxygenSuitRefillTime>10000</OxygenSuitRefillTime>
 			<MinOxygenLevelForSuitRefill>0.75</MinOxygenLevelForSuitRefill>
