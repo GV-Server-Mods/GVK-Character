@@ -43,10 +43,11 @@
 			<MaxCrouchBackwalkSpeed>2</MaxCrouchBackwalkSpeed>
 			<MaxCrouchStrafingSpeed>2</MaxCrouchStrafingSpeed>
 			<JumpForce>2.5</JumpForce>
-			<CharacterHeadSize>0.4</CharacterHeadSize>
+			<CharacterHeadSize>0.2</CharacterHeadSize>
 			<!-- <CharacterHeadSize>0.45</CharacterHeadSize>
     <CharacterHeadHeight>0.25</CharacterHeadHeight>
     <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
+			<CharacterCollisionWidth>0.5</CharacterCollisionWidth>
 			<!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
 			<HeadBone>HeadDummy</HeadBone>
 			<Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
@@ -418,10 +419,11 @@
 			<MaxCrouchBackwalkSpeed>2</MaxCrouchBackwalkSpeed>
 			<MaxCrouchStrafingSpeed>2</MaxCrouchStrafingSpeed>
 			<JumpForce>2.5</JumpForce>
-			<CharacterHeadSize>0.4</CharacterHeadSize>
+			<CharacterHeadSize>0.2</CharacterHeadSize>
 			<!-- <CharacterHeadSize>0.45</CharacterHeadSize>
     <CharacterHeadHeight>0.25</CharacterHeadHeight>
     <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
+			<CharacterCollisionWidth>0.5</CharacterCollisionWidth>
 			<!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
 			<HeadBone>HeadDummy</HeadBone>
 			<Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
