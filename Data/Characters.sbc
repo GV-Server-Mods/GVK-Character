@@ -84,8 +84,8 @@
 			<OxygenConsumptionMultiplier>1</OxygenConsumptionMultiplier>
 			<OxygenSuitRefillTime>10000</OxygenSuitRefillTime>
 			<MinOxygenLevelForSuitRefill>0.75</MinOxygenLevelForSuitRefill>
-			<PressureLevelForLowDamage>0.5</PressureLevelForLowDamage>
-			<DamageAmountAtZeroPressure>7</DamageAmountAtZeroPressure>
+			<PressureLevelForLowDamage>0</PressureLevelForLowDamage> <!-- Vanilla 0.5 -->
+			<DamageAmountAtZeroPressure>0</DamageAmountAtZeroPressure> <!-- Vanilla 7 -->
 			<NeedsOxygen>false</NeedsOxygen>
 			<!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 			<SuitResourceStorage>
@@ -462,8 +462,8 @@
 			<OxygenConsumptionMultiplier>1</OxygenConsumptionMultiplier>
 			<OxygenSuitRefillTime>10000</OxygenSuitRefillTime>
 			<MinOxygenLevelForSuitRefill>0.75</MinOxygenLevelForSuitRefill>
-			<PressureLevelForLowDamage>0.5</PressureLevelForLowDamage>
-			<DamageAmountAtZeroPressure>7</DamageAmountAtZeroPressure>
+			<PressureLevelForLowDamage>0</PressureLevelForLowDamage> <!-- Vanilla 0.5 -->
+			<DamageAmountAtZeroPressure>0</DamageAmountAtZeroPressure> <!-- Vanilla 7 -->
 			<NeedsOxygen>false</NeedsOxygen>
 			<!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 			<SuitResourceStorage>
