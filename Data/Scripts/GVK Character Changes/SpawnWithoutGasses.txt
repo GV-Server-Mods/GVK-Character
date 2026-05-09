@@ -14,6 +14,8 @@ using VRage.Game.Components;
 using VRage.Utils;
 using VRageMath;
 
+// This is probably no longer needed since Keen added "Reduced Stats on Respawn" setting.
+
 namespace AlwaysSpawnWithoutHydrogen 
 {
 
